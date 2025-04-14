@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { heroVideo, smallHeroVideo } from "../utils";
+import { animateWithGsap } from "../utils/animations";
 
 const Hero = () => {
   const src = window.innerWidth < 760 ? smallHeroVideo : heroVideo;
@@ -21,8 +21,8 @@ const Hero = () => {
   }, []);
 
   useGSAP(() => {
-    gsap.to("#hero", { opacity: 1, delay: 1.5 });
-    gsap.to("#cta", { opacity: 1, y: -50, delay: 1.5 });
+    animateWithGsap("#hero", { opacity: 1, delay: 1.5 });
+    animateWithGsap("#cta", { opacity: 1, y: -50, delay: 1.5 });
   }, []);
 
   return (

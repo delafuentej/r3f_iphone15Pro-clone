@@ -1,4 +1,12 @@
-import { Navbar, Hero, Highlights, Model } from "./components";
+import {
+  Navbar,
+  Hero,
+  Highlights,
+  Model,
+  Features,
+  Footer,
+} from "./components";
+import TheMagic from "./components/TheMagic";
 
 function App() {
   return (
@@ -7,6 +15,9 @@ function App() {
       <Hero />
       <Highlights />
       <Model />
+      <Features />
+      <TheMagic />
+      <Footer />
     </main>
   );
 }

@@ -88,27 +88,27 @@ canvas {
     @apply text-center font-semibold text-3xl text-gray-400 opacity-0 max-md:mb-10;
   }
 
-  .hiw-title {
+  .tm-title {
     @apply text-4xl md:text-7xl font-semibold text-center;
   }
 
-  .hiw-subtitle {
+  .tm-subtitle {
     @apply text-gray-500 font-semibold text-xl md:text-2xl py-10 text-center;
   }
 
-  .hiw-video {
+  .tm-video {
     @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden;
   }
 
-  .hiw-text-container {
+  .tm-text-container {
     @apply flex md:flex-row flex-col justify-between items-start gap-24;
   }
 
-  .hiw-text {
+  .tm-text {
     @apply text-gray-500 text-xl font-normal md:font-semibold;
   }
 
-  .hiw-bigtext {
+  .tm-bigtext {
     @apply text-white text-3xl md:text-5xl font-normal md:font-semibold my-2;
   }
 
